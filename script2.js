@@ -2,7 +2,7 @@ var a = 5;
 var b = "5";
 var theNumberMatch;
 
-if (a == b) {
+if (a === b) {
   theNumberMatch = true;
 } else {
   theNumberMatch = false;
