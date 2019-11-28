@@ -6,3 +6,5 @@ var b = "5";
 var sum = a + b;
 
 var humanSum = "The value of a: " + a
+
+console.log(sum)
