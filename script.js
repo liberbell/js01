@@ -3,7 +3,7 @@
 
 var a = 4;
 var b = "Ducks";
-var sum = a + b;
+var sum = a - b;
 
 var humanSum = "The value of a: " + a
 
