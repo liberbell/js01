@@ -5,6 +5,6 @@ pens = ["red", "blue", "green", "orange"];
 // var mixedBag = ["key", 5, false, 54.3, "one more thing"]
 console.log(pens);
 
-var fourthPen = pnes[3];
+var fourthPen = pens[3];
 
-console.log(fourthPen)
+console.log(fourthPen);
