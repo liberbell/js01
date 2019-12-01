@@ -5,6 +5,7 @@ console.log("Before: ", pens);
 
 // console.log("Array length ", pens.length);
 
-pens.reverse();
+// pens.reverse();
+pens.shift();
 
 console.log("Alter: ", pens);
