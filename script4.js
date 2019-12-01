@@ -7,6 +7,7 @@ console.log("Before: ", pens);
 
 // pens.reverse();
 // pens.shift();
-pens.unshift("purple", "black");
+// pens.unshift("purple", "black");
+pens.pop();
 
 console.log("Alter: ", pens);
