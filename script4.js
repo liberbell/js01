@@ -12,7 +12,10 @@ console.log("Before: ", pens);
 // pens.push("pink", "prussion blue");
 // pens.splice(2, 1)
 
-var newPens = pens.slice();
-console.log("New pens: ", newPens)
+// var newPens = pens.slice();
+// console.log("New pens: ", newPens)
+
+var result = pens.indexOf("orange", 1);
+console.log("The index position:  ", result);
 
 console.log("Alter: ", pens);
