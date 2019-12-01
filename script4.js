@@ -19,7 +19,7 @@ console.log("Before: ", pens);
 // console.log("The index position:  ", result);
 // console.log('The value is: ', pens[result]);
 
-var arrayString = pens.join();
+var arrayString = pens.join(", ");
 console.log("String from array: ", arrayString);
 
 console.log("Alter: ", pens);
