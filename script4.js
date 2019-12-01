@@ -17,6 +17,6 @@ console.log("Before: ", pens);
 
 var result = pens.indexOf("orange", 1);
 console.log("The index position:  ", result);
-console.log('The value is: ', pens.[result]);
+console.log('The value is: ', pens[result]);
 
 console.log("Alter: ", pens);
