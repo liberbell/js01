@@ -9,6 +9,7 @@ console.log("Before: ", pens);
 // pens.shift();
 // pens.unshift("purple", "black");
 // pens.pop();
-pens.push("pink", "prussion blue");
+// pens.push("pink", "prussion blue");
+pens.splice(2, 1)
 
 console.log("Alter: ", pens);
