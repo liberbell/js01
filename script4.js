@@ -6,6 +6,7 @@ console.log("Before: ", pens);
 // console.log("Array length ", pens.length);
 
 // pens.reverse();
-pens.shift();
+// pens.shift();
+pens.unshift("purple", "black");
 
 console.log("Alter: ", pens);
