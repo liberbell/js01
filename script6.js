@@ -1,4 +1,4 @@
-function findBiggestFraction() {
+function findBiggestFraction(a, b) {
   a > b ? console.log("a: ", a) : console.log("b: ", b);
   // console.log("The function is running!");
 }
