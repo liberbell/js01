@@ -1,5 +1,6 @@
 function findBiggestFraction(a, b) {
-  a > b ? console.log("a: ", a) : console.log("b: ", b);
+  var result;
+  a > b ? result = ["firstFraction", a] : result = ["secondFraction", b];
   // console.log("The function is running!");
 }
 
