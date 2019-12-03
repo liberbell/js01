@@ -7,4 +7,5 @@ function findBiggestFraction(a,b) {
 var firstFraction = 3/4;
 var secondFraction = 5/7;
 
-console.log(findBiggestFraction(firstFraction, secondFraction));
+var fractionResult = findBiggestFraction(firstFraction, secondFraction);
+console.log(fractionResult)
