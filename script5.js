@@ -9,3 +9,8 @@ var divided = function() {
   console.log("3 divided by 4 is: ", result);
 }
 divided();
+
+(function() {
+  var result = 12 / 0.75;
+  console.log("12 devided by 0.75 is: ", result);
+})
