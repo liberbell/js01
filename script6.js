@@ -8,3 +8,4 @@ var secondFraction = 5 / 7;
 
 
 findBiggestFraction(firstFraction, secondFraction);
+findBiggestFraction(7/16, 13/25);
