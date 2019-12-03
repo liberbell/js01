@@ -7,4 +7,4 @@ var firstFraction = 3 / 4;
 var secondFraction = 5 / 7;
 
 
-findBiggestFraction();
+findBiggestFraction(firstFraction, secondFraction);
