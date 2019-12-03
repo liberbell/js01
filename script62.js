@@ -12,3 +12,4 @@ var fractionResult = findBiggestFraction(firstFraction, secondFraction);
 
 console.log("First fraction result: ", firstFraction);
 console.log("Second fraction result: ", secondFraction);
+console.log("Fraction " + fractionResult[0] + fractionResult[1]);
