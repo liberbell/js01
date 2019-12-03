@@ -12,3 +12,6 @@ var secondFraction = 5 / 7;
 findBiggestFraction(firstFraction, secondFraction);
 findBiggestFraction(7/16, 13/25);
 findBiggestFraction(1/2, 3/4);
+
+var fructionResult = findBiggestFraction(firstFraction, secondFraction);
+console.log(fractionResult);
