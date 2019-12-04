@@ -9,3 +9,4 @@ var theBiggest = function(a, b) {
 }
 
 console.log(theBiggest(101, 20));
+console.log(theBiggest);
