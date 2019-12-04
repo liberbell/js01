@@ -8,5 +8,5 @@ var theBiggest = (function(a, b) {
   return result;
 })(101, 20)
 
-console.log(theBiggest());
+console.log(theBiggest);
 // console.log(theBiggest);
