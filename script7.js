@@ -1,5 +1,5 @@
-var a = 5 / 7;
-var b = 18 / 25;
+var firstFraction = 7 /9;
+var secondFraction = 13 /29;
 
 var theBiggest = (function(a, b) {
   var result;
@@ -8,8 +8,7 @@ var theBiggest = (function(a, b) {
   return result;
 })(firstFraction, secondFraction)
 
-var firstFraction = 7 /9;
-var secondFraction = 13 /29;
+
 
 console.log(theBiggest);
 // console.log(theBiggest);
