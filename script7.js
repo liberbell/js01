@@ -6,7 +6,10 @@ var theBiggest = (function(a, b) {
   a > b ? result = ["a", a] : result = ["b", b];
   // console.log(result);
   return result;
-})(101, 20)
+})(firstFraction, secondFraction)
+
+var firstFraction = 7 /9;
+var secondFraction = 13 /29;
 
 console.log(theBiggest);
 // console.log(theBiggest);
