@@ -1,2 +1,3 @@
 const MYCONSTANT = 5;
 console.log(MYCONSTANT);
+MYCONSTANT = 6;
