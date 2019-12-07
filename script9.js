@@ -1,5 +1,5 @@
 function logScope() {
-  let localvar = 2;
+  var localvar = 2;
 
   if (localvar) {
     let localvar = "I`m different!";
