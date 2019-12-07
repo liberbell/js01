@@ -1,8 +1,8 @@
 function logScope() {
-  var localvar = 2;
+  let localvar = 2;
 
   if (localvar) {
-    var localvar = "I`m different!";
+    let localvar = "I`m different!";
     console.log("nested localvar: ", localvar);
   }
 
