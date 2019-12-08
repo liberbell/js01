@@ -9,8 +9,14 @@ function Course(title, instructor, level, published, views) {
   };
 }
 
-var course01 = new Course("Java script Essential Traning.", "Samuel jackson", 1, true, 0);
-var course02 = new Course("Up and running.", "Taylor swift", 2, true, 100);
+var courses = [
+  new Course("Java script Essential Traning.", "Samuel jackson", 1, true, 0),
+  new Course("Up and running.", "Taylor swift", 2, true, 100)
+];
 
-console.log(course01);
-console.log(course02);
+// var course01 = new Course("Java script Essential Traning.", "Samuel jackson", 1, true, 0);
+// var course02 = new Course("Up and running.", "Taylor swift", 2, true, 100);
+
+// console.log(course01);
+// console.log(course02);
+console.log(courses);
