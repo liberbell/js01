@@ -13,4 +13,4 @@ function doSomeMath() {
 
 var theResult = doSomeMath();
 
-console.log("The result: ", theResult);
+console.log("The result: ", theResult());
