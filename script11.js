@@ -10,3 +10,4 @@ function Course(title, instructor, level, published, views) {
 }
 
 var course01 = new Course("Java script Essential Traning.", "Samuel jackson", 1, true, 0);
+console.log(course01);
