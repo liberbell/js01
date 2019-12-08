@@ -3,7 +3,12 @@ function doSomeMath() {
   var b = 4;
   var sum = a + b;
 
-  return sum;
+  function multiply() {
+    var result = a * b;
+    return result;
+  }
+
+  return multiply;
 }
 
 var theResult = doSomeMath();
