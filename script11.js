@@ -19,4 +19,4 @@ var courses = [
 
 // console.log(course01);
 // console.log(course02);
-console.log(courses);
+console.log(courses[1].instructor);
