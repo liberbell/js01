@@ -4,4 +4,7 @@ function Course(title, instructor, level, published, views) {
   this.level = level;
   this published = published;
   this.views = views;
+  this.updateViews = function() {
+    return ++this.views;
+  }
 }
