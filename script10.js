@@ -7,11 +7,11 @@ var course = new Object();
 // course.views = 0;
 
 var course = {
-  title = "Java script Essential Traning.",
-  instructor = "Samuel jackson",
-  level = 1,
-  published = true,
-  views = 0,
+  title: "Java script Essential Traning.",
+  instructor: "Samuel jackson",
+  level: 1,
+  published: true,
+  views: 0,
 }
 
 console.log(course)
