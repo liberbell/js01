@@ -20,5 +20,5 @@ var course = {
 
 console.log(course);
 
-var currentData = new Object();
+var currentData = new Date();
 var course02 = new Course();
