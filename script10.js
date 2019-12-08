@@ -12,6 +12,10 @@ var course = {
   level: 1,
   published: true,
   views: 0,
+
+  updateViews: function() {
+    return ++course.views;
+  }
 }
 
 console.log(course)
