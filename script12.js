@@ -8,4 +8,4 @@ function doSomeMath() {
 
 var theResult = doSomeMath();
 
-console.log(theResult);
+console.log("The result: ", theResult);
