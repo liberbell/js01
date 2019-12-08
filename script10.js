@@ -18,4 +18,7 @@ var course = {
   }
 }
 
-console.log(course)
+console.log(course);
+
+var currentData = new Object();
+var course02 = new Course();
