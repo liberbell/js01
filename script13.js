@@ -7,3 +7,5 @@ function giveMeEms(pixels) {
 
   return doSomeMath;
 }
+
+var smallSize = giveMeEms(12); 
