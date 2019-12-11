@@ -6,8 +6,11 @@ var altText = THEIMAGE.getAttribute("alt");
 var captionElement = document.createElement("figcaption");
 var captionText = document.createTextNode(altText);
 
-captionElement.appendChild(captionText);
-console.log(captionElement);
+// captionElement.appendChild(captionText);
+// console.log(captionElement);
+//
+// FEATURED.appendChild(captionElement);
 
-FEATURED.appendChild(captionElement);
+captionElement.append(altText);
+FEATURED.append(captionElement);
 THEIMAGE.setAttribute("alt", "");
