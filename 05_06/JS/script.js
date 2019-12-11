@@ -8,3 +8,6 @@ var captionText = document.createTextNode(altText);
 
 captionElement.appendChild(captionText);
 console.log(captionElement);
+
+FEATURED.appendChild(captionElement);
+THEIMAGE.setAttribute("alt", "");
