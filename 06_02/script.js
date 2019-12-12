@@ -10,7 +10,7 @@ let sec = date.getSeconds();
 console.log("Hour: " + hr + " Minute: "+ min + " Second: " + sec)
 
 let hrPosition = 20;
-let minPosition = 130;
+let minPosition = min / 60 * 360;
 let secPosition = sec / 60 * 360;
 
 HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
