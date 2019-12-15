@@ -4,7 +4,7 @@ const ALERT = document.querySelector("#booking-alert");
 CTA.classList.remove("hide");
 ALERT.classList.add("hide");
 
-function reveal(e) {
+function reveal(current) {
     e.preventDefault();
     CTA.classList.toggle("hide");
     ALERT.classList.toggle("hide");
