@@ -10,4 +10,4 @@ function reveal() {
   ALERT.classList.toggle("hide");
 }
 
-CTA.onclick = reveal();
+CTA.onclick = reveal;
