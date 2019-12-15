@@ -12,3 +12,4 @@ function reveal(e) {
 }
 
 CTA.onclick = reveal;
+CTA.onclick = console.log("The button was clicked!")
