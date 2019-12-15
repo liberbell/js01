@@ -7,7 +7,7 @@ ALERT.classList.add("hide");
 function reveal(current) {
     // e.preventDefault();
     // CTA.classList.toggle("hide");
-    current.innerHTML == "Book Now!" ? CTA.innerHTML == "Oooops!" : CTA.innerHTML == "Book Now!";
+    current.innerHTML == "Book Now!" ? CTA.innerHTML = "Oooops!" : CTA.innerHTML = "Book Now!";
     ALERT.classList.toggle("hide");
 }
 
