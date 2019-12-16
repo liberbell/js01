@@ -12,8 +12,8 @@ var timer = [0,0,0,0];
 
 // Run a standard minute/second/hundredths timer:
 function runTimeer() {
-  let currentTime = timer[0] + ":" + timer[1] + ":" + timer[2] + ":"; 
-  theTimer.innerHTML = timer;
+  let currentTime = timer[0] + ":" + timer[1] + ":" + timer[2] + ":";
+  theTimer.innerHTML = currentTime;
   timer[3]++;
 }
 
