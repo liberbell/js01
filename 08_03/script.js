@@ -14,12 +14,16 @@ const theTimer = document.querySelector(".timer");
 // Match the text entered with the provided text on the page:
 function spellCheck() {
   let textEntered = testArea.value;
+
   console.log(textEntered);
 }
 
 // Start the timer:
 function start() {
   let textEnterLength = testArea.value.length;
+  if (textEnterLength === 0) {
+    setInterval(runTimeer, 10);
+  }
   console.log(textEnterLength);
 }
 
