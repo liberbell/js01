@@ -25,6 +25,9 @@ function start() {
 
 
 // Reset everything:
+function reset() {
+  console.log("Reset button has been pressed!");
+}
 
 
 // Event listeners for keyboard input and the reset button:
