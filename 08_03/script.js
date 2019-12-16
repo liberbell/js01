@@ -15,6 +15,10 @@ const theTimer = document.querySelector(".timer");
 
 
 // Start the timer:
+function start() {
+  let textEnterLength = testArea.value.length;
+  console.log(textEnterLength);
+}
 
 
 // Reset everything:
