@@ -25,4 +25,5 @@ function start() {
 
 
 // Event listeners for keyboard input and the reset button:
-testArea.addEventListener("keypress", start, false)
+testArea.addEventListener("keypress", start, false);
+testArea.addEventListener("keyup", spellCheck, false);
