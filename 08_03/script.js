@@ -8,7 +8,7 @@ var timer = [0,0,0,0];
 
 
 // Add leading zero to numbers 9 or below (purely for aesthetics):
-function leadingZero() {
+function leadingZero(time) {
   if (time <= 9) {
     time = "0" + time;
   }
