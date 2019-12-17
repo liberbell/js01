@@ -6,7 +6,7 @@ const theTimer = document.querySelector(".timer");
 
 var timer = [0,0,0,0];
 var interval;
-var timerRunnig;
+var timerRunnig = false;
 
 // Add leading zero to numbers 9 or below (purely for aesthetics):
 function leadingZero(time) {
