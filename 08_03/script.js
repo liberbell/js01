@@ -12,6 +12,7 @@ function leadingZero(time) {
   if (time <= 9) {
     time = "0" + time;
   }
+  return time;
 }
 
 // Run a standard minute/second/hundredths timer:
