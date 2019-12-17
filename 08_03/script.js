@@ -50,7 +50,8 @@ function spellCheck() {
 // Start the timer:
 function start() {
   let textEnterLength = testArea.value.length;
-  if (textEnterLength === 0) {
+  if (textEnterLength === 0 && !timerRunnig) {
+    timerRunnig = true;
     interval = setInterval(runTimeer, 10);
   }
   console.log(textEnterLength);
