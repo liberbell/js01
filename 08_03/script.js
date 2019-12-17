@@ -5,7 +5,8 @@ const resetButton = document.querySelector("#reset");
 const theTimer = document.querySelector(".timer");
 
 var timer = [0,0,0,0];
-
+var interval;
+var timerRunnig;
 
 // Add leading zero to numbers 9 or below (purely for aesthetics):
 function leadingZero(time) {
