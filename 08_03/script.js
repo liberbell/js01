@@ -33,12 +33,12 @@ function spellCheck() {
   let originTextMatch = originText.substring(0, textEntered.length);
 
   if (textEntered == originText) {
-    textWrapper.style.borderColor = "#429890";
+    testWrapper.style.borderColor = "#429890";
   } else {
     if (textEntered == originTextMatch) {
-      textWrapper.style.borderColor = "#65CCf3";
+      testWrapper.style.borderColor = "#65CCf3";
     } else {
-      textWrapper.style.borderColor = "#E95D0F";
+      testWrapper.style.borderColor = "#E95D0F";
     }
   }
 
