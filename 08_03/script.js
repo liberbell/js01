@@ -34,6 +34,10 @@ function spellCheck() {
 
   if (textEntered == originText) {
     textWrapper.style.borderColor = "#429890";
+  } else {
+    if (textEntered == originTextMatch) {
+      textWrapper.style.borderColor = "#65CCf3";
+    }
   }
 
   console.log(textEntered);
