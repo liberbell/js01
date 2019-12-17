@@ -42,7 +42,7 @@ function spellCheck() {
     }
   }
 
-  console.log(textEntered);
+  // console.log(textEntered);
 }
 
 // Start the timer:
