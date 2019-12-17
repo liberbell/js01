@@ -37,6 +37,8 @@ function spellCheck() {
   } else {
     if (textEntered == originTextMatch) {
       textWrapper.style.borderColor = "#65CCf3";
+    } else {
+      textWrapper.style.borderColor = "#E95D0F";
     }
   }
 
