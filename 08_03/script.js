@@ -33,6 +33,7 @@ function spellCheck() {
   let originTextMatch = originText.substring(0, textEntered.length);
 
   if (textEntered == originText) {
+    clearInterval(interval);
     testWrapper.style.borderColor = "#429890";
   } else {
     if (textEntered == originTextMatch) {
@@ -49,7 +50,7 @@ function spellCheck() {
 function start() {
   let textEnterLength = testArea.value.length;
   if (textEnterLength === 0) {
-    setInterval(runTimeer, 10);
+    interval = setInterval(runTimeer, 10);
   }
   console.log(textEnterLength);
 }
