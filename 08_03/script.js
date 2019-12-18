@@ -60,7 +60,10 @@ function start() {
 
 // Reset everything:
 function reset() {
-  console.log("Reset button has been pressed!");
+  // console.log("Reset button has been pressed!");
+  clearInterval(interval);
+  interval = null;
+  timer = [0, 0, 0, 0];
 }
 
 
