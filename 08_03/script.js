@@ -65,6 +65,9 @@ function reset() {
   interval = null;
   timer = [0, 0, 0, 0];
   timerRunnig = false;
+
+  testArea.value = "";
+  theTimer.innerHTML = "00:00:00";
 }
 
 
