@@ -68,6 +68,7 @@ function reset() {
 
   testArea.value = "";
   theTimer.innerHTML = "00:00:00";
+  testWrapper.style.borderColor = "grey";
 }
 
 
