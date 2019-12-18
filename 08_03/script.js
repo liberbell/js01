@@ -64,6 +64,7 @@ function reset() {
   clearInterval(interval);
   interval = null;
   timer = [0, 0, 0, 0];
+  timerRunnig = false;
 }
 
 
