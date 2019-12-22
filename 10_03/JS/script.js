@@ -28,5 +28,6 @@ for (let i = 0; i < IMAGES.length; i++) {
 
   let type = IMAGES[i].getAttribute("data-type");
   let sizes = SIZES[type];
-  console.log(sizes);
+  IMAGES[i].setAttribute("sizes", sizes);
+  // console.log(sizes);
 }
