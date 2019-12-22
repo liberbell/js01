@@ -5,7 +5,7 @@ function makeSrcset(imgSrc) {
   let width = 400;
 
   for (let i = 0; i < 5; i++) {
-    markup[i] = imgSrc + "-" + width + ".jpg " + "w";
+    markup[i] = imgSrc + "-" + width + ".jpg " + width + "w";
     width +=400;
   }
   return markup.join();
