@@ -6,5 +6,5 @@ for (let i = 0; i < IMAGES.length; i++) {
   console.log(imgSrc);
 
   let type = IMAGES[i].getAttribute("data-type");
-  console.log(type)
+  console.log(type);
 }
