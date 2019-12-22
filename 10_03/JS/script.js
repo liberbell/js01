@@ -3,6 +3,10 @@ const IMAGES = document.querySelectorAll("img");
 function makeSrcset(imgSrc) {
   let markup = [];
   let width = 400;
+
+  for (let i = 0; i < 5; i++) {
+    markup[i] = imgSrc + "_" + width + ".jpg " + "w";
+  }
 }
 
 for (let i = 0; i < IMAGES.length; i++) {
