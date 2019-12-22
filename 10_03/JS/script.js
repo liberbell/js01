@@ -1,4 +1,8 @@
 const IMAGES = document.querySelectorAll("img");
+const SIZES = {
+  showcase: "(max-width: 799px) 100vw, 372px",
+  feature: "(max-width: 799px) 100vw, 558px",
+};
 
 function makeSrcset(imgSrc) {
   let markup = [];
