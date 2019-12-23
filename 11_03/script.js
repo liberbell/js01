@@ -54,6 +54,7 @@ function start() {
     if (textEnterdLength === 0) {
 
         interval = setInterval(runTimer, 10);
+        console.log(interval);
     }
 }
 
