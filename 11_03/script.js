@@ -58,6 +58,7 @@ function start() {
       }
 
         interval = setInterval(runTimer, 10);
+        test++;
         console.log(interval);
     }
 }
