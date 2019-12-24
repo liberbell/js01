@@ -53,9 +53,9 @@ let test = 0;
 function start() {
     let textEnterdLength = testArea.value.length;
     if (textEnterdLength === 0) {
-      if (test >= 1) {
-        console.err("The start function is triggerd!");
-      }
+      // if (test >= 1) {
+      //   console.err("The start function is triggerd!");
+      // }
 
         interval = setInterval(runTimer, 10);
         test++;
